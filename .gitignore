@@ -1,6 +1,23 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
-
 node_modules/
-platforms/
-plugins/
+.nodenv-vars
+ 
+src/css
+src/bower_components
+src/js/config.js
+www/
+ 
+enviroments/*.json
+ 
+platforms/android/assets/www/
+platforms/android/CordovaLib/ant-build
+platforms/android/CordovaLib/ant-gen
+platforms/android/ant-build
+platforms/android/ant-gen
+platforms/android/CordovaLib/local.properties
+platforms/android/local.properties
+ 
+platforms/ios/www
+ 
+madbill-android-release-key.keystore
+Madbill.apk
+.idea
