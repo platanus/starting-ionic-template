@@ -16,8 +16,15 @@ $dark:                            #444 !default;
 */
 
 // The path for our ionicons font files, relative to the built CSS in www/css
-$ionicons-font-path: "../lib/ionic/fonts" !default;
+$ionicons-font-path: "../bower_components/ionic/release/fonts" !default;
 
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
+@import "src/bower_components/ionic/scss/ionic";
+
+//Set your general styles here
+
+h1 {
+	color: blue;
+}
+
 

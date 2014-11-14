@@ -22,8 +22,8 @@ $dark:                            #444 !default;
 */
 @font-face {
   font-family: "Ionicons";
-  src: url("../lib/ionic/fonts/ionicons.eot?v=1.5.2");
-  src: url("../lib/ionic/fonts/ionicons.eot?v=1.5.2#iefix") format("embedded-opentype"), url("../lib/ionic/fonts/ionicons.ttf?v=1.5.2") format("truetype"), url("../lib/ionic/fonts/ionicons.woff?v=1.5.2") format("woff"), url("../lib/ionic/fonts/ionicons.svg?v=1.5.2#Ionicons") format("svg");
+  src: url("../bower_components/ionic/release/fonts/ionicons.eot?v=1.5.2");
+  src: url("../bower_components/ionic/release/fonts/ionicons.eot?v=1.5.2#iefix") format("embedded-opentype"), url("../bower_components/ionic/release/fonts/ionicons.ttf?v=1.5.2") format("truetype"), url("../bower_components/ionic/release/fonts/ionicons.woff?v=1.5.2") format("woff"), url("../bower_components/ionic/release/fonts/ionicons.svg?v=1.5.2#Ionicons") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7814,3 +7814,6 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 .platform-c:not(.enable-transitions) * {
   -webkit-transition: none !important;
   transition: none !important; }
+
+h1 {
+  color: blue; }
