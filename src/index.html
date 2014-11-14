@@ -4,23 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
-
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <!-- build:css css/style.css -->
     <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+    <!-- endbuild -->
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- build:js js/libs.js -->
+    <!-- angularjs -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- ionic -->
+    <script src="bower_components/ionic/release/js/ionic.js"></script>
+    <script src="bower_components/ionic/release/js/ionic-angular.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/app.js -->
+    <!-- environment variables -->
+    <script src="js/config.js"></script>
+    <!-- app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/home-ctrl.js"></script>
+    <!-- endbuild -->
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <script src="js/controllers/home-ctrl.js"></script>
   </head>
   <body ng-app="starter">
     <ion-nav-view></ion-nav-view>
