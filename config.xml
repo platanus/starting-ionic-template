@@ -2,11 +2,11 @@
 <widget id="com.ionicframework.startingionictemplate445141" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>starting-ionic-template</name>
   <description>
-        An Ionic Framework and Cordova project.
-    </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
-    </author>
+    Starting Ionic Template
+  </description>
+  <author email="contacto@platan.us" href="http://platan.us">
+    Platanus
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
