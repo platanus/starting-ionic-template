@@ -1,3 +1,4 @@
 {
-  "directory": "www/lib"
+  "directory": "src/bower_components",
+  "json": "bower.json"
 }
